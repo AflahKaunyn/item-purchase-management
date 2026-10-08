@@ -6,7 +6,7 @@ import {
     Link
 } from "react-router-dom";
 
-const API = "http://127.0.0.1:8000/api";
+const API = "https://item-purchase-management-api.onrender.com/api";
 
 async function request(url, options = {}) {
     const response = await fetch(`${API}${url}`, {
