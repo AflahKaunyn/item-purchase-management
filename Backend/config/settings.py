@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'item_purchase_db',
         'USER': 'root',
-        'PASSWORD': 'tiger',
+        'PASSWORD': 'PASSWORD',
         'HOST': 'localhost',
         'PORT': '3306',
     }
